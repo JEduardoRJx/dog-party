@@ -1,0 +1,135 @@
+* {
+  border: red solid 1px;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Open Sans;
+}
+
+nav {
+  background-color: #75e2e6;
+  border-bottom: solid 2px #048eaa;
+  height: 80px;
+  padding: 1% .5%;
+  padding: 9px;
+  width: 100%;
+}
+
+#dog-icon {
+  height:60px;
+  margin-left:15px;
+  width: 60px;
+}
+
+a {
+  color: black;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  list-style-type: none;
+  margin-right: 20px;
+  margin: 1%;
+  text-decoration: none;
+}
+
+/*Some-dog-section*/
+.some-dog-section{ 
+  background-image: url(images/park.jpg);
+  background-position: 50% 71%;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+div {
+  margin: auto;
+  width: 37%;
+}
+
+ .main-form {
+  background: rgba(0,0,0,0.3);
+}
+
+.header-some-dogs {
+  color: white;
+  font-size: 100;
+  font-size: 45px;
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+}
+
+form button,
+form input {
+  display: block;
+  margin: auto auto;
+  width: 100%;
+  height: 45px;
+}
+
+form input {
+  margin-top: 3%;
+}
+
+.button-name-this-dog {
+  background-color: #75e2e6;
+  margin: 5% 0%;
+}
+
+ label {
+  color: white;
+  font-size: 20px;
+}
+
+/*Article Dogs*/
+.dog-article, 
+.dog-main {
+  border-radius: 50%;
+  border: #048eaa solid 7px;
+  display: block;
+  height: 250px;
+  margin: auto;
+  width: 250px;
+}
+
+article {
+  display: inline-block;
+  width: 33%;
+}
+
+h2 {
+  text-align: center;
+}
+
+button {
+  background-color: #75e2e6;
+  height: 45px;
+}
+
+/*Footer Section*/
+footer {
+  background-color: #048eaa;
+  color: white;
+  height: 180px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.ul-social-logos {
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+}
+
+.social-logos {
+  display: inline;
+  margin: auto;
+}
