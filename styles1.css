@@ -44,7 +44,7 @@ a {
   background-blend-mode: multiply;
   background-color: darkgray;
   border-top: solid 1px #048eaa;
-  height: 610px;
+  padding: 1%;
  }
 
 div {
@@ -113,13 +113,12 @@ h2 {
   text-align: center;
 }
 
-p {
-  font-weight: 600;
-}
 #p-info {
   font-size: 18px;
   height: 260px;
   margin: 30px 0 16px 0;
+  font-weight: 600;
+
 }
 
 button {
@@ -163,4 +162,8 @@ h3 {
   display: inline;
   margin: 0 10px;
   height: 100%; 
+}
+
+@media (min-width: 600px) {
+
 }
