@@ -1,18 +1,17 @@
 * {
-  border: red solid 1px;
   box-sizing: border-box;
-  vertical-align: top;
 }
 
 body {
   background-color: #ffffff;
   color: #000000;
   font-family: Open Sans;
+  margin: 0;
 }
 
 nav {
   background-color: #75e2e6;
-  border-bottom: solid 2px #048eaa;
+  border-bottom: solid 3px #048eaa;
   height: 80px;
   padding: 1% .5%;
   padding: 9px;
@@ -37,20 +36,20 @@ a {
 }
 
 /*Some-dog-section*/
-.some-dog-section{ 
+.section-some-dogs { 
   background-image: url(images/park.jpg);
   background-position: 50% 71%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-blend-mode: multiply;
+  background-color: darkgray;
+  border-top: solid 1px #048eaa;
+  height: 610px;
  }
 
 div {
   margin: auto;
   width: 37%;
-}
-
- .main-form {
-  background: rgba(0,0,0,0.3);
 }
 
 .header-some-dogs {
@@ -66,18 +65,21 @@ span {
 
 form button,
 form input {
+  border-radius: 5px;
   display: block;
+  height: 50px;
   margin: auto auto;
   width: 100%;
-  height: 45px;
 }
 
 form input {
-  margin-top: 3%;
+  margin-top: 1%;
 }
 
 .button-name-this-dog {
   background-color: #75e2e6;
+  font-size: 20px;
+  font-weight: 600;
   margin: 5% 0%;
 }
 
@@ -99,37 +101,66 @@ form input {
 
 article {
   display: inline-block;
-  width: 33%;
+  margin: 36px 58px 45px 58px;
+  margin: 36px 58px;
+  min-width: 300px;
+  vertical-align: top;
+  width: 25%;
 }
 
 h2 {
+  font-size:36px;
   text-align: center;
 }
 
+p {
+  font-weight: 600;
+}
+#p-info {
+  font-size: 18px;
+  height: 260px;
+  margin: 30px 0 16px 0;
+}
+
 button {
-  background-color: #75e2e6;
-  height: 45px;
+  background-color: #048eaa;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  height: 50px;
+  width: 100%;
+}
+
+#main-button {
+  color: black;
 }
 
 /*Footer Section*/
 footer {
   background-color: #048eaa;
   color: white;
-  height: 180px;
+  height: 230px;
 }
 
 h3 {
+  margin: 0;
+  padding-top: 4%;
   text-align: center;
 }
 
 .ul-social-logos {
   display: inline-block;
+  height: 50px;
   list-style-type: none;
+  margin-top: 40px;
+  padding: 0px;
   text-align: center;
   width: 100%;
 }
 
 .social-logos {
   display: inline;
-  margin: auto;
+  margin: 0 10px;
+  height: 100%; 
 }
