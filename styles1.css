@@ -18,7 +18,7 @@ nav {
   width: 100%;
 }
 
-#dog-icon {
+.dog-icon {
   height:60px;
   margin-left:15px;
   width: 60px;
@@ -35,7 +35,6 @@ a {
   text-decoration: none;
 }
 
-/*Some-dog-section*/
 .section-some-dogs { 
   background-image: url(images/park.jpg);
   background-position: 50% 71%;
@@ -65,6 +64,7 @@ span {
 
 form button,
 form input {
+  border: none;
   border-radius: 5px;
   display: block;
   height: 50px;
@@ -85,14 +85,15 @@ form input {
 
  label {
   color: white;
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 1px;
 }
 
-/*Article Dogs*/
 .dog-article, 
 .dog-main {
   border-radius: 50%;
-  border: #048eaa solid 7px;
+  border: #048eaa solid 5px;
   display: block;
   height: 250px;
   margin: auto;
@@ -114,11 +115,10 @@ h2 {
 }
 
 #p-info {
-  font-size: 18px;
+  font-size: 20px;
   height: 260px;
   margin: 30px 0 16px 0;
-  font-weight: 600;
-
+  font-weight: 500;
 }
 
 button {
@@ -135,7 +135,6 @@ button {
   color: black;
 }
 
-/*Footer Section*/
 footer {
   background-color: #048eaa;
   color: white;
@@ -146,6 +145,7 @@ h3 {
   margin: 0;
   padding-top: 4%;
   text-align: center;
+  font-weight: 400;
 }
 
 .ul-social-logos {
@@ -164,6 +164,17 @@ h3 {
   height: 100%; 
 }
 
-@media (min-width: 600px) {
+@media screen and (max-width: 1439px) {
+
+  article {
+    display: block;
+    width: 50%;
+    margin: auto;
+  }
+
+  footer {
+    margin-top: 2%;
+    }
+  }
 
 }
